@@ -1,2 +1,2 @@
-# Cryptant
-My Submission for Timathon 2021 (Jan-Feb)
+# [Cryptant](https://cryptant.my.to/)
+## Your Digital Crypto Assistant
