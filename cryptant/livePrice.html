@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <base target="_blank">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cryptant.my.to/livePrice.html">
+    <meta property="og:title" content="Cryptant | Live Prices">
+    <meta property="og:description" content="Get current prices for almost all cryptocurrency.">
+    <meta property="og:image" content="img/assets/ogLiveprice.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/assets/favicon.png" rel="icon" type="image/png">
+    <link href="css/init.css" rel="stylesheet" type="text/css">
+    <link href="css/ion-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="css/etline-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/colors/purple.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:400,100,200,300%7CHind:400,300" rel="stylesheet" type="text/css">
+    <link href="css/liveprice.css" rel="stylesheet" type="text/css">
+	<title>Cryptant | Live Prices</title>
+</head>
+    <body data-fade-in="true">
+        
+        <div class="pre-loader"><div></div></div>
+
+        
+        <nav class="navbar nav-down" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
+                                        
+            <div class="container">
+
+                <div class="navbar-header">
+                    <div class="container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                        <a class="navbar-brand to-top" href="#"><img src="img/assets/logo-light.png" class="logo-light" alt="#"><img src="img/assets/logo-dark.png" class="logo-dark" alt="#"></a>
+                    </div>
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav menu-right">
+
+                            
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li class="dropdown megamenu vos">
+                                <a class="dropdown-toggle">Services<i class="ion-ios-arrow-down" href="#services"></i></a>
+                                <ul class="dropdown-menu fullwidth">
+                                    <li class="megamenu-content withdesc">
+                                        <div class="col-md-3 mg-col">
+                                            <ul>
+                                                <li><a href="predictions.html">AI Advice</a></li>
+                                                
+                                                <li><a href="livePrice.html">Current Price</a></li>
+                                                <li><a href="news.html">Cryptocurrency News</a></li>
+                                                <li><a href="graphs.html">Candlestick Graphs</a></li>
+                                                <li><a href="topGainersLosers.html">Gainers & Losers</a></li>
+                                                <li><a href="https://documenter.getpostman.com/view/14294116/TW6tL9xQ">API</a></li>
+                                                
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+
+        
+        <section id="hero" class="hero-fullscreen parallax" data-overlay-dark="7">
+            <div class="background-image">
+                <img src="img/backgrounds/bg-1.jpg" alt="#">
+            </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="hero-content-slider mt20" data-autoplay="true" data-speed="4000">
+
+                        <div>
+                            <h1>Cryptant<br><strong>Live Prices</strong></h1>
+                            <p class="lead">Get the current price for any cryptocurrency.</p>
+                            <a href="#main" class="btn btn-lg btn-primary btn-scroll">Get Started</a>
+                        </div>
+
+                        <div>
+                            <h1>Cryptant<br><strong>Live Prices</strong></h1>
+                            <p class="lead">Get the current price for any cryptocurrency.</p>
+                            <a href="#main" class="btn btn-lg btn-primary btn-scroll">Get Started</a>
+                        </div>
+
+                        <div>
+                            <h1>Cryptant<br><strong>Live Prices</strong></h1>
+                            <p class="lead">Get the current price for any cryptocurrency.</p>
+                            <a href="#main" class="btn btn-lg btn-primary btn-scroll">Get Started</a>
+                        </div>
+
+                        <div>
+                            <h1>Cryptant<br><strong>Live Prices</strong></h1>
+                            <p class="lead">Get the current price for any cryptocurrency.</p>
+                            <a href="#main" class="btn btn-lg btn-primary btn-scroll">Get Started</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <script src="js/jquery.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/scripts.js"></script>
+        
+    <div id="main" class="main">
+        <h2 id="titlePrice">Live Prices</h2>
+    	<select name="coin" id="coin">
+    		<option value="Bitcoin">Bitcoin</option>
+    		<option value="Ethereum">Ethereum</option>
+    		<option value="Tether">Tether</option>
+    		<option value="NEO">Neo</option>
+    		<option value="VeChain">Vechain</option>
+    		<option value="KuCoin Shares">Kucoin shares</option>
+    		<option value="OneLedger">Oneledger</option>
+    		<option value="CashBet Coin">Cashbet coin</option>
+    		<option value="CPChain">Cpchain</option>
+    		<option value="Constellation">Constellation</option>
+    		<option value="Egretia">Egretia</option>
+    		<option value="Elastos">Elastos</option>
+    		<option value="Stellar">Stellar</option>
+    		<option value="Credits">Credits</option>
+    		<option value="Aurora">Aurora</option>
+    		<option value="Electroneum">Electroneum</option>
+    		<option value="Wanchain">Wanchain</option>
+    		<option value="DACC">Dacc</option>
+    		<option value="Dock">Dock</option>
+    		<option value="GoChain">Gochain</option>
+    		<option value="BABB">Babb</option>
+    		<option value="Lympo">Lympo</option>
+    		<option value="Ontology">Ontology</option>
+    		<option value="QuarkChain">Quarkchain</option>
+    		<option value="DATx">Datx</option>
+    		<option value="IoTeX">Iotex</option>
+    		<option value="Loom Network">Loom network</option>
+    		<option value="Open Platform">Open platform</option>
+    		<option value="Phantasma">Phantasma</option>
+    		<option value="TomoChain">Tomochain</option>
+    		<option value="OriginTrail">Origintrail</option>
+    		<option value="Covesting">Covesting</option>
+    		<option value="aelf">Aelf</option>
+    		<option value="Matrix AI Network">Matrix ai network</option>
+    		<option value="Zilliqa">Zilliqa</option>
+    		<option value="THEKEY">Thekey</option>
+    		<option value="Cappasity">Cappasity</option>
+    		<option value="Nano">Nano</option>
+    		<option value="CargoX">Cargox</option>
+    		<option value="Medicalchain">Medicalchain</option>
+    		<option value="Telcoin">Telcoin</option>
+    		<option value="WAX">Wax</option>
+    		<option value="CoinFi">Coinfi</option>
+    		<option value="adbank">Adbank</option>
+    		<option value="High Performance Blockchain">High performance blockchain</option>
+    		<option value="IOST">Iost</option>
+    		<option value="DeepBrain Chain">Deepbrain chain</option>
+    		<option value="Selfkey">Selfkey</option>
+    		<option value="Revain">Revain</option>
+    		<option value="carVertical">Carvertical</option>
+    		<option value="Litecoin">Litecoin</option>
+    		<option value="Alphacat">Alphacat</option>
+    		<option value="Dragonchain">Dragonchain</option>
+    		<option value="IoT Chain">Iot chain</option>
+    		<option value="Restart Energy MWAT">Restart energy mwat</option>
+    		<option value="SingularityNET">Singularitynet</option>
+    		<option value="Dent">Dent</option>
+    		<option value="Achain">Achain</option>
+    		<option value="EOS">Eos</option>
+    		<option value="Ethereum Classic">Ethereum classic</option>
+    		<option value="Gas">Gas</option>
+    		<option value="aXpire">Axpire</option>
+    		<option value="HEROcoin">Herocoin</option>
+    		<option value="CoinPoker">Coinpoker</option>
+    		<option value="UTRUST">Utrust</option>
+    		<option value="Dash">Dash</option>
+    		<option value="Fortuna">Fortuna</option>
+    		<option value="Change">Change</option>
+    		<option value="Synthetix Network Token">Synthetix network token</option>
+    		<option value="Chronobank">Chronobank</option>
+    		<option value="Enjin Coin">Enjin coin</option>
+    		<option value="Waltonchain">Waltonchain</option>
+    		<option value="Aion">Aion</option>
+    		<option value="Qtum">Qtum</option>
+    		<option value="DigiByte">Digibyte</option>
+    		<option value="Ambrosus">Ambrosus</option>
+    		<option value="Bytom">Bytom</option>
+    		<option value="Decentraland">Decentraland</option>
+    		<option value="SwissBorg">Swissborg</option>
+    		<option value="OmiseGO">Omisego</option>
+    		<option value="TrueFlip">Trueflip</option>
+    		<option value="Kyber Network">Kyber network</option>
+    		<option value="Bitcoin Diamond">Bitcoin diamond</option>
+    		<option value="Power Ledger">Power ledger</option>
+    		<option value="Populous">Populous</option>
+    		<option value="Status">Status</option>
+    		<option value="Neblio">Neblio</option>
+    		<option value="Civic">Civic</option>
+    		<option value="Nuls">Nuls</option>
+    		<option value="Request Network">Request network</option>
+    		<option value="0x">0x</option>
+    		<option value="TRON">Tron</option>
+    		<option value="Merculet">Merculet</option>
+    		<option value="Decred">Decred</option>
+    		<option value="Eden">Eden</option>
+    		<option value="BUMO">Bumo</option>
+    		<option value="HyperCash">Hypercash</option>
+    		<option value="Crypterium">Crypterium</option>
+    		<option value="Paxos Standard Token">Paxos standard token</option>
+    		<option value="Docademic">Docademic</option>
+    		<option value="USD//Coin">Usd//coin</option>
+    		<option value="TrueUSD">Trueusd</option>
+    		<option value="Bitcoin SV">Bitcoin sv</option>
+    		<option value="Fantom">Fantom</option>
+    		<option value="XRP">Xrp</option>
+    		<option value="Lisk">Lisk</option>
+    		<option value="Maker">Maker</option>
+    		<option value="Dai">Dai</option>
+    		<option value="Travala.com">Travala.com</option>
+    		<option value="sUSD">Susd</option>
+    		<option value="Aergo">Aergo</option>
+    		<option value="Kambria">Kambria</option>
+    		<option value="XYO">Xyo</option>
+    		<option value="Grin">Grin</option>
+    		<option value="BitTorent Token">Bittorent token</option>
+    		<option value="Monero">Monero</option>
+    		<option value="RSK Smart Bitcoin">Rsk smart bitcoin</option>
+    		<option value="#MetaHash">#metahash</option>
+    		<option value="Loki">Loki</option>
+    		<option value="Energi">Energi</option>
+    		<option value="Fetch">Fetch</option>
+    		<option value="Ankr">Ankr</option>
+    		<option value="DxChain Token">Dxchain token</option>
+    		<option value="RIF Token">Rif token</option>
+    		<option value="TurtleCoin">Turtlecoin</option>
+    		<option value="GAMB">Gamb</option>
+    		<option value="V Systems">V systems</option>
+    		<option value="SOLVE">Solve</option>
+    		<option value="Pundi X">Pundi x</option>
+    		<option value="Crypto.com Coin">Crypto.com coin</option>
+    		<option value="Spendcoin">Spendcoin</option>
+    		<option value="MultiVAC">Multivac</option>
+    		<option value="Cosmos">Cosmos</option>
+    		<option value="Trias">Trias</option>
+    		<option value="NIX">Nix</option>
+    		<option value="Ocean Protocol">Ocean protocol</option>
+    		<option value="Function X">Function x</option>
+    		<option value="Nimiq">Nimiq</option>
+    		<option value="COTI">Coti</option>
+    		<option value="PIVX">Pivx</option>
+    		<option value="Binance Coin">Binance coin</option>
+    		<option value="Chromia">Chromia</option>
+    		<option value="Algorand">Algorand</option>
+    		<option value="Caspian">Caspian</option>
+    		<option value="Jarvis+">Jarvis+</option>
+    		<option value="NEM">Nem</option>
+    		<option value="Tezos">Tezos</option>
+    		<option value="Zcash">Zcash</option>
+    		<option value="Cardano">Cardano</option>
+    		<option value="Bolt">Bolt</option>
+    		<option value="Chiliz">Chiliz</option>
+    		<option value="The Forbidden Forest">The forbidden forest</option>
+    		<option value="Wirex Token">Wirex token</option>
+    		<option value="Metadium">Metadium</option>
+    		<option value="WINk">Wink</option>
+    		<option value="Harmony">Harmony</option>
+    		<option value="Dapp Token">Dapp token</option>
+    		<option value="NOIA Network">Noia network</option>
+    		<option value="Dero">Dero</option>
+    		<option value="FortKnoxster">Fortknoxster</option>
+    		<option value="Enecuum">Enecuum</option>
+    		<option value="VideoCoin">Videocoin</option>
+    		<option value="Terra">Terra</option>
+    		<option value="Swipe">Swipe</option>
+    		<option value="Akropolis">Akropolis</option>
+    		<option value="V-ID">V-id</option>
+    		<option value="ARPA Chain">Arpa chain</option>
+    		<option value="Blockcloud">Blockcloud</option>
+    		<option value="Cryptoindex.com 100">Cryptoindex.com 100</option>
+    		<option value="EOS Force">Eos force</option>
+    		<option value="Tokoin">Tokoin</option>
+    		<option value="ROOBEE">Roobee</option>
+    		<option value="Verasity">Verasity</option>
+    		<option value="Newscrypto">Newscrypto</option>
+    		<option value="ARCS">Arcs</option>
+    		<option value="Xeonbit Token">Xeonbit token</option>
+    		<option value="Ampleforth">Ampleforth</option>
+    		<option value="ROAD">Road</option>
+    		<option value="Kusama">Kusama</option>
+    		<option value="Zel">Zel</option>
+    		<option value="Presearch">Presearch</option>
+    		<option value="DigitalBits">Digitalbits</option>
+    		<option value="Blockstack">Blockstack</option>
+    		<option value="Xensor">Xensor</option>
+    		<option value="Sensorium">Sensorium</option>
+    		<option value="Compound">Compound</option>
+    		<option value="MarcoPolo Protocol">Marcopolo protocol</option>
+    		<option value="Perth Mint Gold Token">Perth mint gold token</option>
+    		<option value="Sylo">Sylo</option>
+    		<option value="WOM Protocol">Wom protocol</option>
+    		<option value="Digitex Futures">Digitex futures</option>
+    		<option value="Paparazzi">Paparazzi</option>
+    		<option value="suterusu">Suterusu</option>
+    		<option value="KardiaChain">Kardiachain</option>
+    		<option value="Waves">Waves</option>
+    		<option value="Energy Web Token">Energy web token</option>
+    		<option value="LUKSO">Lukso</option>
+    		<option value="Neutrino Dollar">Neutrino dollar</option>
+    		<option value="Orion Protocol">Orion protocol</option>
+    		<option value="Terra">Terra</option>
+    		<option value="Maxonrow">Maxonrow</option>
+    		<option value="Alchemy">Alchemy</option>
+    		<option value="Pool-X">Pool-x</option>
+    		<option value="Waves Enterprise">Waves enterprise</option>
+    		<option value="Just">Just</option>
+    		<option value="Suku">Suku</option>
+    		<option value="BNS Token">Bns token</option>
+    		<option value="DIA">Dia</option>
+    		<option value="Chainlink">Chainlink</option>
+    		<option value="Polkadot">Polkadot</option>
+    		<option value="Safe Haven">Safe haven</option>
+    		<option value="Effect.AI">Effect.ai</option>
+    		<option value="UMA">Uma</option>
+    		<option value="DMM: Governance">Dmm: governance</option>
+    		<option value="yearn.finance">Yearn.finance</option>
+    		<option value="USDJ">Usdj</option>
+    		<option value="Aleph.im">Aleph.im</option>
+    		<option value="SUN">Sun</option>
+    		<option value="Uniswap">Uniswap</option>
+    		<option value="Ultra">Ultra</option>
+    		<option value="Nervos Network">Nervos network</option>
+    		<option value="Sentivate">Sentivate</option>
+    		<option value="Filecoin">Filecoin</option>
+    		<option value="Aave">Aave</option>
+    		<option value="Dego Finance">Dego finance</option>
+    		<option value="Uquid Coin">Uquid coin</option>
+    		<option value="Velo">Velo</option>
+    		<option value="Opacity">Opacity</option>
+    		<option value="TE-FOOD">Te-food</option>
+    		<option value="ShareToken">Sharetoken</option>
+    		<option value="Oasis Network">Oasis network</option>
+    		<option value="Bitcoin Cash ABC">Bitcoin cash abc</option>
+    		<option value="Haven Protocol">Haven protocol</option>
+    		<option value="Pluton">Pluton</option>
+    		<option value="The Graph">The graph</option>
+    		<option value="Cashaa">Cashaa</option>
+    		<option value="Bitcoin Cash Node">Bitcoin cash node</option>
+    		<option value="TerraUSD">Terrausd</option>
+    		<option value="Super Zero">Super zero</option>
+    		<option value="Buxcoin">Buxcoin</option>
+    		<option value="Revv">Revv</option>
+    		<option value="Tokenlon Network Token">Tokenlon network token</option>
+    		<option value="1inch">1inch</option>
+    		<option value="Api3">Api3</option>
+    		<option value="Frontier">Frontier</option>
+    		<option value="Wrapped Bitcoin">Wrapped bitcoin</option>
+    	</select>
+    	<button type="submit" onclick="getPrice();" id="sbtBtn">Submit</button>
+        <table id="tableMain">
+            <tr>
+                <th id="firstCol">Particulars</th>
+                <th id="seoconCol">Values</th>
+            </tr>
+            <tr>
+                <td id="coinNameTitle">Coin Name</td>
+                <td id="coinName">...</td>
+            </tr>
+            <tr>
+                <td>Coin Symbol</td>
+                <td id="coinSymbol">...</td>
+            </tr>
+            <tr>
+                <td>Price (BTC)</td>
+                <td id="priceBtc">...</td>
+            </tr>
+            <tr>
+                <td>Price ($)</td>
+                <td id="priceDollar">...</td>
+            </tr>
+            <tr>
+                <td id="percentageChangeTitle">Percentage Change in last 24 hours</td>
+                <td id="percentageChange">...</td>
+            </tr>
+        </table>
+    	
+    </div>
+
+<script type="text/javascript">
+	function getPrice(){
+		var coin = document.getElementById('coin').value;
+		fetch(`https://cryptantapi.root.sx/getPrice/${coin}`)
+			.then(data => data.json())
+			.then(d => editTags(d))
+		}
+
+	function editTags(d){
+		var coinName = document.getElementById('coinName')
+		var coinSymbol = document.getElementById('coinSymbol')
+		var priceBtc = document.getElementById('priceBtc')
+		var priceDollar = document.getElementById('priceDollar')
+		var percentageChange = document.getElementById('percentageChange')
+        var percentageChangeText = parseFloat(d.percentChange24hUsd).toFixed(2)
+		coinName.innerHTML = d.name
+		coinSymbol.innerHTML = d.symbol
+		priceBtc.innerHTML = parseFloat(d.priceBtc).toFixed(8) + " BTC"
+		priceDollar.innerHTML = "$" + parseFloat(d.priceUsd).toFixed(4)
+		percentageChange.innerHTML = percentageChangeText + "%"
+        if (percentageChangeText < 0){
+            percentageChange.style.color = "#FF0000"
+        }else{
+            percentageChange.innerHTML = "+" + percentageChange.innerHTML
+            percentageChange.style.color = "#228B22"
+        }
+	}
+
+
+</script>
+</html>
