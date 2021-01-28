@@ -1,0 +1,149 @@
+#coin
+{
+	position: relative;
+	width: 285px;
+	color: #fff;
+	margin-right: 30px;
+}
+#main
+{
+	position: relative;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	padding-top: 150px;
+	background-image: url("../img/backgrounds/bg-9.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 440px;
+}
+#titlePrice
+{
+	font-size: 5em;
+	margin-bottom: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#sbtBtn
+{
+	position: relative;
+	width: 285px;
+	height: 55px;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+}
+
+select
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	text-align-last: center;
+	border-radius: 5px;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  font-weight: 500;
+}
+
+
+#tableMain
+{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5%;
+	width: 40%;
+  	height: 40%;
+  	background-color: rgba(0, 0, 0, 0.3);
+  	color: rgba(0, 0, 0, 0.3);
+}
+
+#firstCol
+{
+	border-top-left-radius: 8px;
+}
+
+#secondCol
+{
+	border-top-right-radius: 8px;
+}
+
+#percentageChangeTitle
+{
+	border-bottom-left-radius: 8px;
+}
+
+#percentageChange
+{
+	border-bottom-right-radius: 8px;
+}
+
+span
+{
+
+	color: #FF0000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(50, 50, 255); 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 116, 230); 
+}
+
+@media(max-width: 1300px)
+{
+	#main
+	{
+		background-size: 250px;
+	}
+}
+
+@media(max-width: 1200px)
+{
+	#main
+	{
+		background-image: none;
+	}
+}
+
+@media(max-width: 913px)
+{
+	#titlePrice
+	{
+		margin-bottom: 0;
+	}
+}
+
+@media(max-width: 400px)
+{
+	#titlePrice
+	{
+		font-size: 3em;
+	}
+}

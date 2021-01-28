@@ -1,0 +1,191 @@
+#about
+{
+	background-image: url("../img/backgrounds/bg-9.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 440px;
+	min-height: 90vh;
+}
+
+#mainBtn
+{
+	text-transform: uppercase;
+	position: absolute;
+	margin-top: 500px;
+}
+
+#sbtBtn
+{
+	position: relative;
+	width: 285px;
+	height: 55px;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+}
+
+select
+{
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	text-align-last: center;
+	border-radius: 5px;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  font-weight: 500;
+}
+
+
+#tableMain
+{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5%;
+	width: 40%;
+  	height: 40%;
+  	background-color: rgba(0, 0, 0, 0.3);
+  	color: rgba(0, 0, 0, 0.3);
+}
+
+#coin
+{
+	position: relative;
+	width: 285px;
+	color: #fff;
+	margin-right: 30px;
+}
+
+#main
+{
+	align-items: center;
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	height: 90vh;
+	background-image: url("../img/backgrounds/bg-9.png"), url("../img/backgrounds/bg-10.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;
+	background-size: 300px, 200px;
+}
+
+#titlePredict
+{
+	font-size: 5em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#particular
+{
+	border-top-left-radius: 8px;
+}
+
+#values
+{
+	border-top-right-radius: 8px;
+}
+
+#conclusionTd
+{
+	border-bottom-left-radius: 8px;
+}
+
+#conclusion
+{
+	border-bottom-right-radius: 8px;
+}
+
+@media(max-width: 1200px)
+{
+	#mainBtn
+	{
+		margin-top: 600px;
+	}
+}
+
+@media(max-width: 992px)
+{
+	#mainBtn
+	{
+		margin-top: 550px;
+	}
+}
+
+@media(max-width: 980px)
+{
+	#mainBtn
+	{
+		margin-top: 90px;
+	}
+
+	#about
+	{
+		background-size: 250px;
+		background-position: right bottom;
+	}
+
+	#main
+	{
+		background-image: none, none;
+	}
+}
+
+
+@media(max-width: 410px)
+{
+	#about
+	{
+		background-image: none;
+	}
+
+	#mainBtn
+	{
+		margin-top: 30px;
+	}
+
+	#titlePredict
+	{
+		font-size: 3em;
+	}
+}
+
+@media(max-width: 340px)
+{
+	#mainBtn
+	{
+		visibility: hidden;
+	}
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(50, 50, 255); 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 116, 230); 
+}
