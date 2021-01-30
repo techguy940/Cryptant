@@ -97,7 +97,7 @@ Cryptant provides candlestick graphs for almost all cryptocurrencies for time in
 ![Image](https://media.giphy.com/media/9nr1OGBnI8aNCz2e29/giphy.gif)
 
 
-## Top Gainers ⬆️ and Losers ⬇️
+## **[Top Gainers ⬆️ and Losers ⬇️](https://cryptant.my.to/topGainersLosers.html)**
 
 Cryptocurrencies which gain the maximum percentage in their buying price are termed as  **Top Gainers ⬆️** and which lose the maximu percentage in their buying price are termed as **Top Losers ⬇️** <br />
 Cryptant provides a list of such gainers and losers at one place for free, updated regularly!
@@ -115,7 +115,7 @@ Cryptant provides a list of such gainers and losers at one place for free, updat
 ![Image](https://media.giphy.com/media/PFYSxinwt9ZUO36Zi1/giphy.gif)
 
 
-## API
+## **[API](https://documenter.getpostman.com/view/14294116/TW6tL9xQ)**
 **Cryptant**, unlike any other cryptocurrency advice website, provides a **Free-To-Use** API for developers.<br />
 API Docs have been posted on Postman via the owners of the website. <br />
 **Note:** Rate Limit: 10 Requests/ Minute (General Rate Limit) <br />
@@ -138,4 +138,4 @@ Get AI 🤖 Advice for any cryptocurrency: `/getPrediction/<coin>` <br />
 
 ----
 If you liked my (Just for fun#4278) website, kindly do me a favour by voting me in this Codejam 😄.<br />
-**[Vote for me](https://twtcodejam.net/timathon/vote/357/)(**
+**[Vote for me](https://twtcodejam.net/timathon/vote/357/)**
