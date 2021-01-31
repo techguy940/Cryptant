@@ -153,7 +153,7 @@ def home(coin):
 @cross_origin()
 @limiter.limit("10 per minute")
 def news():
-	r = requests.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=84ac4a0df4f245309a261b7e8f9351d8").json()
+	r = requests.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=30731a8396d140aead35a5f62303da2c").json()
 	articles = r['articles']
 	return jsonify(articles[:9])
 
