@@ -261,7 +261,6 @@ def contact(name, email, message):
 		json.dump(data, f, indent=4)
 	return jsonify({"success": True})
 
-# app.run(debug=True)
-
-waitress.serve(app, host = config["ip"], port = config["port"])
+app.run()
+# waitress.serve(app, host = config["ip"], port = config["port"])
 
