@@ -2,27 +2,27 @@ from flask import Flask, jsonify
 from flask_cors import CORS, cross_origin
 import requests, os
 from flask_limiter import Limiter
-# from flask_limiter.util import get_remote_address
+from flask_limiter.util import get_remote_address
 import json
 import string, flask, waitress
 
 ## Dependancies:
 # pip install flask flask-cors flask-limiter waitress
 
-os.system("title Cryptant API")
+# os.system("title Cryptant API")
 
 app = Flask(__name__)
 cors = CORS(app)
 
-config = {
-	"website": "https://cryptantapi.root.sx/",
-	"host": "cryptantapi.root.sx",
-	"ip": "0.0.0.0",
-	"port": 7505
-}
+# config = {
+#	"website": "https://cryptantapi.root.sx/",
+#	"host": "cryptantapi.root.sx",
+#	"ip": "0.0.0.0",
+#	"port": 7505
+# }
 
-def get_remote_address():
-    return flask.request.headers.get("X-Real-IP") # Using proxy_pass in nginx & setting header for real ip.
+# def get_remote_address():
+#    return flask.request.headers.get("X-Real-IP") # Using proxy_pass in nginx & setting header for real ip.
 
 coins = {
  '0x': 'ZRX',
