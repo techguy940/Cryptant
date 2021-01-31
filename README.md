@@ -142,10 +142,11 @@ If you liked my (Just for fun#4278) website, kindly do me a favour by voting me 
 
 
 ## Want to host it yourself?
-1. Start `api.py` from `API` folder.
-2. Change API Url in each HTML file.
-3. Open `index.html` and done.
-4. Host it using `nginx` if you want it to be hosted on a domain
+1. Install all dependencies stated in `API/requirements.txt`
+2. Start `api.py` from `API` folder.
+3. Change API Url in each HTML file.
+4. Open `index.html` and done.
+5. Host it using `nginx` if you want it to be hosted on a domain
 
 If you liked my (Just for fun#4278) website, kindly do me a favour by voting me in this Codejam 😄.<br />
 **[Vote for me](https://twtcodejam.net/timathon/vote/357/)**
