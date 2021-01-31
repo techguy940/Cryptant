@@ -1,0 +1,4 @@
+flask
+flask-cors
+flask-limiter
+waitress
